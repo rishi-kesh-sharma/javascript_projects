@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+} 
+body{
+	/* display: flex;
+	justify-content: space-around;
+	align-items: center; */
+}
+.login{
+	
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height:75%;
+	width:90%;
+	/*background: blue;*/
+	position:absolute;
+	right:0px;
+	bottom:60px;
+	display: inline-block;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	border-radius: 20px;
+	border:2px solid black;
+	max-width: 400px;
+
+}
+input[type="text"]{
+outline: none;
+border: none;
+}
+ .name{
+	border:none;
+	height:2rem;
+	width:20em;
+	border-radius:20px;
+	padding:5px 20px;
+	font-size:1.2rem;
+	
+}
+.password{
+	font-size:1.2rem;
+	border:none;
+	height:2rem;
+	width:20em;
+	background:("images/user-alt-solid.svg");
+	border-radius:20px;
+	padding:5px 20px;
+
+
+}
+h6{
+	color:#fff;
+	padding:3px;
+	transform:translate(80px,-30px);
+}
+a{
+
+	text-decoration:none;
+	color:#fff;
+}
+.login-button{
+	
+	padding:8px 80px;
+	background-color:green;
+	border-radius:20px;
+}
+h6:hover{
+	color:red;
+	text-decoration:underline;
+}
+.login-button:hover{
+background: darkgreen;
+transform:scale(1.2,1.2);
+}
+.person-image img{
+	color:red;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style14.css">
+	<title>
+		project14
+	</title>
+</head>
+<body>
+	<h2 class="messageoff"> light off</h2>
+	<h2 class="messageon"> light on</h2>
+	<div class="container">
+		<div class="bulboff"><img src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2" width="100" height="100" >
+		</div>
+		<div class="bulboff"><img src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2" width="100" height="100">
+		</div>
+		<div class="bulboff"><img src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2" width="100" height="100">
+		</div>
+		<div class="bulboff"><img src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2" width="100" height="100">
+		</div>
+		<div class="bulboff"><img src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2" width="100" height="100">
+	</div>
+
+ 
+</div>
+<button class="button" >on</button> 
+
+
+<script type="text/javascript">
+ const bulbs=document.querySelectorAll(".bulboff img");
+ const btn=document.querySelector(".button");
+
+ btn.addEventListener("click",()=>{
+	 
+ btn.classList.toggle("on");
+	if(btn.classList.contains("on"))
+	{
+	 bulbs.forEach((bulb)=>{
+		 btn.innerHTML="switch off";
+		 bulb.src="https://www.bing.com/th?id=OIP.E0jSIrVy0lS6LIULac0rngHaKj&w=80&h=110&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2";
+		 
+	 })
+	}
+	 
+	 
+	 else{
+		 bulbs.forEach((bulb)=>{
+			 
+		 bulb.src="https://www.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=153&h=204&c=8&rs=1&qlt=90&dpr=1.1&pid=3.1&rm=2";
+		 btn.innerHTML="switch on"
+
+		 })
+	 }
+	 
+
+ })
+ </script>
+
+</body>
+</html>

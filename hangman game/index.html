@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>HANGMAN</h1>
+         <h2>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+         <p> 
+             use the alphabet below to guess the word ,or click hint to get a clue
+        </p>
+        <div class="letter-container">
+            <span class="letter">a</span>
+            <span class="letter">b</span>
+            <span class="letter">c</span>
+            <span class="letter">d</span>
+            <span class="letter">e</span>
+            <span class="letter">f</span>
+            <span class="letter">g</span>
+            <span class="letter">h</span>
+            <span class="letter">i</span>
+            <span class="letter">j</span>
+            <span class="letter">k</span>
+            <span class="letter">l</span>
+            <span class="letter">m</span>
+            <span class="letter">n</span>
+            <span class="letter">o</span>
+            <span class="letter">p</span>
+            <span class="letter">q</span>
+            <span class="letter">r</span>
+            <span class="letter">s</span>
+            <span class="letter">t</span>
+            <span class="letter">u</span>
+            <span class="letter">v</span>
+            <span class="letter">x</span>
+            <span class="letter">y</span>
+            <span class="letter">z</span>
+        </div>
+        <h2 class="category-heading"> 
+            the chosen category is <span  class="category-span"></span>
+        </h2>
+        <div class="input-letter-container"></div>
+        <h2 class="lives-container">
+            you have <span class="lives">&nbsp 5</span> lives
+        </h2>
+        <h2 class="game-over    "></h2>
+        <h2> clue:<span class="clue">this is the clue&nbsp     </span></h2>
+    <div class="canvas-container">
+            <canvas class="hangman-image-container"></canvas>
+        </div>
+        <div class="btn-container">
+            <button class="hint-btn">hint</button>
+            <button class="play-again-btn">play again</button>    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

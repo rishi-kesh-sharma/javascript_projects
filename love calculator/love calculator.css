@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	color:white;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-image: url("https://www.bing.com/th/id/OGC.72dca1ab4747eb14707df5c710aa3bcb?pid=1.7&rurl=https%3a%2f%2fwww.lovelyquotesimages.com%2fwp-content%2fuploads%2f2020%2f01%2fBeautiful-love-Gif-image.gif&ehk=M8RMGckvECXLpRa7nOz9ZWzjkVYhHgbhBhWWR4rrUpE%3d");
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	z-index:-1;
+}
+.container{
+	
+	
+	background-color: rgba(0,0,0,0.4);
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	padding-top:100px;
+}
+.maincontainer{
+	 
+	 height:200px;
+    max-width: 400px;
+    width:70%;
+    margin: auto;
+ 
+    background-color: white;
+}
+#header{
+	background-color: red;
+	opacity:1;
+	height:2rem;
+	text-align: center;
+	font-weight:600;
+	padding-top:5px;
+
+	font-size:1.2em;
+	letter-spacing: 2px;
+	
+}
+#namebox
+{
+	height:50px;
+	width:100%;
+	margin:auto;
+	font-size:2rem;
+	text-align:bottom;
+	vertical-align: bottom;
+	font-weight:600;
+	color:black;
+}
+input{
+	display:inline-block;
+	height:25px;
+	width:40%;
+	margin:auto;
+	padding-left:20px;
+	margin-left:20px;
+
+
+}
+#btn{
+	height:25px;
+	width:200px;
+	text-align:center;
+	font-weight:600;
+	font-size:1.2em;
+	letter-spacing: 2px;
+	margin-top:10px;
+	margin:auto;
+	border-radius:20px;
+	cursor: pointer;
+}
+.show-footer{
+	height:35px;
+	width:100%;
+	 margin-top:10px;
+	
+	 padding-top:5px;
+	text-align:center;
+	background:blue;
+	opacity:0.4;
+	font-weight:600;
+	letter-spacing: 2px;
+	box-shadow: 10px 10px 9px black;
+	text-shadow:-5px -5px 1px red;
+	
+}  
+.calculate{
+	background-color: green;
+}
+.reset{
+	background-color: red;
+}
+.show-percentage{
+	color: white;
+	height:35px;
+	width:200px;
+	font-weight: 700;
+	background:black;
+	margin:auto;
+	margin-top:20px;
+	border-radius:10px;
+	text-align:center;
+	padding-top:10px;
+	box-shadow: 10px 10px 20px black;
+	display: block;
+}

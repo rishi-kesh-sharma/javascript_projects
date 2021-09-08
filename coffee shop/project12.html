@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <link rel="stylesheet" type="text/css" href="style12.css">
+	<title>project</title>
+</head>
+<body>
+    <div class="main">
+	    <div class="section1">
+	    	<h1>its not just a coffee its a <span>starbucks</span>
+	    		</h1>
+	    		<p>Lorem ipsum sum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+	    		</p>
+	    		<a href="#">learn more</a>
+	    		
+			<div class="thumbnails">
+	    			
+	    		<img  class="thumb1" src="../../images/thumb1.png " width="100px" height="100px">
+
+	    		<img  class="thumb2" src="../../images/thumb2.png " width="100px" height="100px">
+	    		<img  class="thumb3" src="../../images/thumb3.png " width="100px" height="100px">
+	    	</div>
+	    </div>
+	         <div class="section2">
+
+	    		<img  class="section2image" src="../../images/coffee1.png " width="300px" height="300px">
+	    		<!--<img src="images/coffee2.png " width="300px" height="300px">
+	    		<img src="images/coffee3.png " width="300p" height="300px">-->
+		
+	         </div>
+
+	    	
+    </div>
+	<script>
+		var x=document.querySelector(".thumb1");
+ x.onmouseover= myfunction1();
+ function myfunction1()
+ {
+	 document.querySelector(".section2image").src="../../images/coffee1.png";
+ }
+  var y=document.querySelector(".thumb2");
+ y.onmouseover=function myfunction2()
+ {
+	 document.querySelector(".section2image").src="../../images/coffee2.png";
+ }
+  var z=document.querySelector(".thumb3");
+ z.onmouseover= myfunction3();
+ function myfunction3()
+ {
+	 document.querySelector(".section2image").src="../../images/coffee3.png";
+ }
+  </script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	color:#fff;
+	
+	font-family:sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.fathercontainer{
+	  background:url(images/backfood.jpg);
+	  background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100%;
+	overflow-x:hidden;
+}
+.container{
+	background:rgba(0,0,0,0.5);
+	height:100vh;
+	width:100%;
+	
+}
+.header{
+      height:3em;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	position:sticky;
+}
+.logo{
+	margin:2em;
+	font-weight:800;
+	font-size:1.7em;
+}
+.logo span{
+	color:red;
+}
+.navbar{
+	margin-right:0px;
+	height:100%;
+	width:60%;
+	display:flex;
+	
+	margin-top:2em;
+}
+.navbar ul{
+	padding-right:0;
+	float:right;
+	height:50%;
+	width:80%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.navbar ul li{
+    list-style: none;
+    font-size:0.7em;
+
+}
+.navbar ul li a{
+	padding:6px;
+	 text-decoration:none;
+
+}
+.main{
+	height:80%;
+	width:100%;
+	margin:40px;
+	padding:100px 100px;
+	 text-align:center;
+	margin-bottom:700px;
+
+
+
+}
+.main .para1{
+    font-weight:800;
+    font-size:2rem;
+
+}
+.main .para2{
+	margin:10px;
+	padding:10px;
+	font-size:0.6em;
+
+}
+.button{
+background-color:rgba(250,60,79,1);
+width:150px;
+height:30px;
+letter-spacing:2px;
+font-size:0.9em;
+margin:auto;
+ padding-top:5px;
+ border-radius:20px;
+
+
+}
+.navbar ul li a:hover{
+	font-size:1.2em;
+	text-shadow:15px 15px 15px black;
+	color:red;
+}
+
+.button:hover{
+	transform:scale(1.1);
+}
+
+
+/*the about us page
+
+*/
+
+.aboutustext1,.aboutustext2{
+	color:#000;
+}
+.aboutuspizza{
+	height:70vh;
+	width:60%;
+	background-image: url()
+}
+
+.aboutus{
+	padding-top:10vh;
+	padding-left:0px;
+	
+	height:100vh;
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	
+	overflow-x:hidden;
+
+}
+.aboutustext{
+	width:40%;
+	margin-top:10px;
+	padding-right:20px;
+}
+.aboutustext p{
+text-transform:capitalize;
+font-size:0.8em;
+
+}
+.aboutustext1{padding-top:10%;
+	padding-bottom:10px;
+}
+.aboutuspizza img{
+
+	width:100%;
+	padding-top:5%;
+	height:100%;
+	max-width:600px;
+}
+.heading{
+	width:8em;
+	text-transform: capitalize;
+	color:black;
+	transform: translate(100px,-30px);
+}
+.heading::first-letter{
+color:red;
+font-size:1.6rem;
+font-weight:800;
+}
+
+
+/*menu           
+          */
+
+ 
+.menu{
+	padding-top:40px;
+	padding-left:30px;
+	padding-right:30px;
+	width:100%;
+}
+.menu p{
+	color:black;
+	
+	text-align:center;
+	vertical-align: center;
+	text-transform: capitalize;
+
+}
+.menu .para1{
+       height:40px;
+       width:200px;
+       text-align: center;
+       vertical-align:center;
+       padding-bottom:0px;
+       font-size:2em;
+       margin:auto;
+
+}
+.menu .para2{
+       height:40px;
+       width:400px;
+       text-align: center;
+       vertical-align:center;
+       padding-bottom:0px;
+       font-size:0.7em;
+       margin:auto;
+	transform: translate(60px,-40px);
+ 
+}
+.menu .para3{
+	transform: translate(75px,-45px);
+	 height:40px;
+       width:200px;
+       text-align: center;
+       vertical-align:center;
+       padding-bottom:40px;
+       font-size:2em;
+       margin:auto;
+}
+.para3::first-letter{
+	color:red;
+font-size:2rem;
+font-weight:800;
+}
+
+.menuimages{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content: space-around;
+	
+	flex-wrap: wrap;
+	
+}
+
+/*experts
+
+
+
+           */
+.expert{
+	width:100%;
+	margin-top:50px;
+	padding:50px;
+
+}
+.expertheading{
+        height:25vh;
+        width:100%;
+        margin:auto;
+        text-overflow:hidden;
+}
+/*.expertheading p span{
+	display: inline-block;*/
+}
+.expertheading .para1{
+text-align:center;
+font-weight:400;
+ margin:auto;
+ color:black;
+font-size:30px;
+line-height:5px;
+}
+.expertheading .paraateri{
+	
+    text-align:center;
+font-weight:500;
+        margin:40px auto;
+        font-size:0.8em;
+
+	color:black;
+
+
+}
+
+.expertheading .para1::first-letter{
+	color:red;
+font-size:2.5rem;
+font-weight:500;
+
+}
+.expertimages{
+width:100%;
+	height:100%;
+	display:flex;
+	justify-content: space-around;
+	
+	flex-wrap: wrap;
+}
+.expertimages div p{
+	font-weight:bold;
+	margin:5px;
+}
+
+
+/*review     
+
+
+
+               */
+
+
+.reviewheading{
+	padding-top: 30px;
+        height:15vh;
+        width:100%;
+        margin:auto;
+        text-overflow:hidden;
+    }
+ .review{
+ 	height:100vh;
+ 	width:100%;
+ 	margin-top:100px;
+ 	background-image: url("https://www.bing.com/th?id=OIP.heZ5WaReglUY6FldKfszCQHaId&w=92&h=106&c=8&rs=1&qlt=90&dpr=1.2&pid=3.1&rm=2");
+    background-size:contain; 	
+ 	display:flex;
+     flex:column;
+     flex-wrap: wrap;
+
+ 	justify-content: space-between;
+ 	
+ 
+
+ }
+ .personreview  {
+ 	width:100%;
+ 	height:100%;
+      display:flex;
+      flex-wrap:wrap;
+ 	background-color: rgba(0,0,0,0.5);
+      
+	justify-content:space-around;
+	margin-top:50px;
+
+
+
+
+ } 
+ .personimage{
+
+border-radius:50%;
+ 	margin: 0 auto;
+ }
+ .personreview1{
+ 	max-height:300px;
+ 	min-height:200px 
+ 	height:50%;
+ 	width:50%;
+ 	min-width:100px;
+ 	max-width:500px;
+      display:flex;
+      flex-wrap:wrap;
+	border:1px solid black;
+	box-shadow:10px 10px 10px red;
+
+ 	justify-content: space-between;
+ 	border-radius: 20px;
+	text-align:center;
+
+
+ 	background-color:white;
+ } 
+ .personreview2{
+ 	max-height:300px;
+ 	min-height:200px 
+ 	height:70%;
+ 	width:50%;
+ 	min-width:100px;
+ 	max-width:500px;
+      display:flex;
+      flex-wrap:wrap;
+ 	justify-content: space-between;
+	border:1px solid black;
+	box-shadow:10px 10px 10px red;
+border-radius: 20px;
+	text-align:center;
+
+ 	background-color:white;
+ }   
+ .personreview3{
+ 	max-height:300px;
+ 	min-height:200px 
+ 	height:70%;
+ 	width:50%;
+ 	min-width:100px;
+ 	max-width:500px;
+      display:flex;
+      flex-wrap:wrap;
+ 	justify-content: space-between;
+	border:1px solid black;
+	box-shadow:10px 10px 10px red;
+	border-radius: 20px;
+	text-align:center;
+
+
+ 	background-color:white;
+ }   
+ .personreview4{
+ 	max-height:300px;
+ 	min-height:200px 
+ 	height:70%;
+ 	width:50%;
+ 	min-width:100px;
+ 	max-width:500px;
+      display:flex;
+      flex-wrap:wrap;
+ 	justify-content: space-between;
+	border:1px solid black;
+	box-shadow:10px 10px 10px red;
+	border-radius: 20px;
+	text-align:center;
+
+
+ 	background-color:white;
+ }             
+.personopinion{
+padding-top:20px;
+	color:black;
+	text-overflow:wrap;
+	text-transform:lowercase;
+
+	font-size:0.8rem;
+
+}
+.review .reviewheading .paraa{
+	color:white;
+
+	font-size:1.7em;
+}
+.reviewheading .paraa::first-letter
+{
+color:red;
+font-size:2.5rem;
+font-weight:600;
+
+}
+.reviewheading .parab{
+	font-size:0.65em;
+	color:white;
+}
+.personimage img{
+	height:100px;
+	width:100px;
+     border-radius:60px;
+}
+
+
+
+
+
+

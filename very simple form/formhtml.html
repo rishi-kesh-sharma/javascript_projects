@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="formstyle.css">
+	<script> 
+	 function myfunction()
+     {
+	var x=document.getElementById("contact");
+	if(x.validity.tooLong)
+	{
+
+		document.getElementById("demo").innerHTML="too long";
+	}
+   /* else{
+    	document.getElementById("demo").innerHTML="valid input!";
+    }
+	*/
+
+	}
+
+</script>
+	<title>formvalidation</title>
+</head>
+<body>
+	<div id="form">
+    <form name="myform"   action="#" method="post">
+		<legend> form</legend>
+		<label for="name">name:</label>
+		<input type="text" name="name" placeholder="enter your name" maxlength="15"   >
+		<label for="address">address:</label>
+		<input type="address" name="address" placeholder="enter your address"    >
+		<label f0r="contact">contact:</label>
+		<input  id="contact" type="number" name="contact" placeholder="enter your contact no." maxLength="5" >
+		<label for="email">email:</label>
+		<input   type="email" name="email" placeholder="enter your email address" >
+		<label for="password">password:</label>
+		<input type="password" name="password" placeholder="enter your password" maxlength="10" 	title="password">
+
+		<input type="submit" id="submit" name="submit" value="submit" onclick="myfunction()">
+	</form>
+	</div>
+	<p id="demo"></p>
+
+</body>
+</html>

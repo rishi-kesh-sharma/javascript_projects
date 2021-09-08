@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: red;
+    height: auto;
+    width: 100%;
+}
+h1,p,h2,button,span{
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+    width: auto;
+    height: auto;
+    
+}
+.container{
+    background-color: yellowgreen;
+}
+h2{
+    font-weight: 300;
+}
+h2,p,button{
+    text-transform: capitalize;
+    
+}
+h2,p{
+    margin: 30px auto;
+}
+p{
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    padding: 30px 0;
+}
+.letter-container,.input-letter-container{
+    height:auto;
+    width:auto;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.letter-container span{
+    height: 35px;
+    width: 40px;
+    padding: 10px auto;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 4px;
+    border-radius: 5px; 
+    font-size: 1.3em;
+    
+}
+.letter-container span:hover{
+    background-color: white;
+    color: yellowgreen;
+    cursor: pointer;
+    }
+    .canvas-container{
+        height: 40vh;
+        max-width: 350px;
+        width: 100%;
+        margin:10px auto; 
+         border-radius: 20px;
+         border: 2px dotted white;
+    }
+    .hangman-image-container{
+        height: 100%;
+        width:100%;
+        display: none;
+    }
+    .btn-container{
+        display: inline-block;
+        height: 40px;
+        width: 100%;
+        max-width: 400px;
+        margin:  40px auto;
+        padding: 0 auto;
+    }
+    .btn-container button{
+        height: 100%;
+        padding: 10px auto;
+        width: 150px;
+      background-color: yellowgreen;
+        margin:  auto;
+        font-size: 1.2em;
+            border: 1px solid white;
+            margin-left: 35px;
+            border-radius: 10px;
+    }
+   button:hover{
+       
+    background-color: white;
+    color: yellowgreen;
+   }
+   .input-letter-container{
+       height: auto;
+       width: auto;
+       max-width:450px ;
+       margin: 10px auto;
+       padding-left:40px ;
+       padding-bottom: 30px;
+
+   }
+   .input-letter-container span{
+       color: white;
+       display: inline-block;
+       width: 25px;
+       height: 100%;
+   }
+   
+  .letter-container .letter.disabled{
+       background-color: rgb(87, 82, 82);
+       opacity: 0.3;
+   }
+   .hanged{
+       display: block;
+   }

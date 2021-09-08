@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="love calculator.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+	<title>
+		LOVE CALCULATOR
+	</title>
+</head>
+<body>
+	<div class="container">
+		<div class="maincontainer">
+			<div id="header">LOVE CALCULATOR</div>
+			 <div id="namebox">
+              <input  style="color:black" id="name1" type="text" placeholder="YOUR NAME">
+				+<input style="color:black"  id="name2" class="input" type="text" placeholder="LOVE  NAME"     >
+			 
+			 </div>
+			<div id="btn" class="calculate">calculate</div>
+			<div id="percentage"> </div>
+			<div id="footer">god bless your relationship</div>
+		</div>
+		
+	</div>
+	<script>
+		const btn=document.querySelector("#btn");
+		var name1=document.querySelector("#name1");
+		var name2=document.querySelector("#name2");
+		const percentageDisplayer=document.querySelector("#percentage");
+		const footer=document.querySelector("#footer");
+
+		const calculateLove=()=>{
+			var randomNumber=Math.trunc(Math.random()*100);
+			var percentage=`${randomNumber}%`;
+			return percentage;
+
+		}
+
+		btn.addEventListener("click",()=>{
+			
+			if(name1.value && name2.value)
+			{
+				
+				
+
+			if(btn.classList.contains("calculate")){
+				btn.innerHTML="reset";
+				var finalPercentage=calculateLove();
+				
+				percentageDisplayer.setAttribute("class","show-percentage");
+				footer.setAttribute("class","show-footer");
+				percentageDisplayer.innerHTML=finalPercentage;
+				console.log(percentageDisplayer);
+			}
+			else{
+				btn.innerHTML="calculate"
+				percentageDisplayer.innerHTML="";
+				name1.value="";
+				name2.value="";
+				
+			   percentageDisplayer.removeAttribute("class")
+			   footer.removeAttribute("class");
+				
+				
+			}
+			btn.classList.toggle("reset");
+			btn.classList.toggle("calculate");
+
+			}
+			else{
+				
+				var message=(!name1.value&&!name2.value)?"enter the names":((name1.value?"enter your love name" :null)||(name2.value?"enter your name":null))
+			         alert(message);
+				// var message
+				// var message=name2.value?"enter your name":"enter your love name";
+				// console.log(message);
+			}
+			
+
+			
+		});
+		 
+
+	</script>
+
+</body>
+</html>
